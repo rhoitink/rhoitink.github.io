@@ -6,12 +6,29 @@
     <title>Roy Hoitink</title>
   </head>
   <body class="bg-gray-300">
-    <div id="app" class="container mx-auto max-w-md p-10 bg-white mt-10 rounded-xl shadow-xl">
-      <img src="/roy.jpg" alt="Roy Hoitink" class="rounded-full h-48 w-48 mx-auto" />
-      <img src="/icons/academic-cap.svg" class="h-6 w-6" alt="academic cap icon"/> <h1 class="text-4xl font-bold text-center my-4">
-         Roy Hoitink
-      </h1>
-    <p class="text-center text-orange font-semibold text-lg">PhD candidate</p>
+    <div id="app" class="container mx-auto md:max-w-3xl max-w-xl bg-white mt-10 rounded-xl shadow-xl md:flex md:flex-row">
+      <div class="md:basis-1/2">
+        <div class="bg-orange object-cover rounded-t-xl h-32 md:hidden">
+          
+        </div>
+        <img src="/roy.jpg" alt="Roy Hoitink" class="rounded-full h-48 w-48 md:object-cover md:h-full md:w-full md:rounded-none md:rounded-tl-xl md:rounded-bl-xl mx-auto -mt-24 md:m-0" />
+      </div>
+      <!-- <img src="/icons/academic-cap.svg" class="h-6 w-6" alt="academic cap icon"/>  -->
+      <div class="md:basis-1/2 px-8">
+        <h1 class="text-4xl font-bold text-center md:text-left my-4 hover:text-orange transition-colors ease-in-out group">
+          Roy Hoitink <span class="invisible group-hover:visible">👋</span>
+        </h1>
+        <h2 class="text-center md:text-left text-orange font-semibold text-lg">PhD candidate</h2>
+        <h3 class="text-slate-800 font-medium text-md">Profile</h3>
+        <p class="text-slate-800 font-light text-justify">I'm an enthousiastic and reliable researcher in the field of physical chemistry. 
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos porro molestiae voluptatum debitis illum ea repudiandae illo hic voluptas laudantium, officiis, consequatur qui nobis iste facilis, similique quia? Quod, cupiditate.
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo dolores atque sed facilis iure earum ullam dolore? Quaerat, doloremque veniam excepturi optio, dolorum cupiditate, cum recusandae est nesciunt commodi consequatur?
+        </p>
+
+          <div class="flex items-center">
+            <img src="/icons/academic-cap.svg" class="h-6 w-6" alt="academic cap icon"/>
+          </div>
+      </div>
     </div>
     <script type="module" src="src/main.js"></script>
   </body>
