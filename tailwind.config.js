@@ -8,7 +8,10 @@ export default {
     extend: {
       colors: {
         "orange": "#eb8d59",
-      }
+      },
+      fontFamily: {
+        sans: ['Fira Sans', 'sans-serif']
+      },
     },
   },
   plugins: [],
